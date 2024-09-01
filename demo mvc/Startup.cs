@@ -34,7 +34,7 @@ namespace demo_mvc
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello from session one!");
                 });
                 endpoints.MapGet("/amr", async context =>
                 {
