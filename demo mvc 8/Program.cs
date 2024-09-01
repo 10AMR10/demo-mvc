@@ -14,11 +14,11 @@ namespace demo_mvc_8
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Woooorld!");
                 });
                 endpoints.MapGet("/amr", async context =>
                 {
-                    await context.Response.WriteAsync("Hello amr!");
+                    await context.Response.WriteAsync("Hello  from amr!");
                 });
 
                 endpoints.MapControllerRoute(
